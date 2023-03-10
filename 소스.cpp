@@ -2,30 +2,32 @@
 #include <time.h>
 using namespace std;
 
-//int main() {
-//	bool b;
-//	b = (1 == 2);
-//
-//	cout << std::boolalpha;
-//	cout << b << endl;
-//
-//	return 0;
-//}
+// ì»´í“¨í„°ê³µí•™ë¶€ 202202854 ì´í•˜ë‚˜
+
+int main() {
+	bool b;
+	b = (1 == 2);
+
+	cout << std::boolalpha;
+	cout << b << endl;
+
+	return 0;
+}
 
 //int main() {
 //
 //	int x, y;
-//	cout << "x°ªÀ» ÀÔ·ÂÇÏ½Ã¿À: ";
+//	cout << "xê°’ì„ ìž…ë ¥í•˜ì‹œì˜¤: ";
 //	cin >> x;
-//	cout << "y°ªÀ» ÀÔ·ÂÇÏ½Ã¿À: ";
+//	cout << "yê°’ì„ ìž…ë ¥í•˜ì‹œì˜¤: ";
 //	cin >> y;
 //
 //	if (x > y)
-//		cout << "x°¡ yº¸´Ù Å®´Ï´Ù.";
+//		cout << "xê°€ yë³´ë‹¤ í½ë‹ˆë‹¤.";
 //	else if (y > x)
-//		cout << "y°¡ xº¸´Ù Å®´Ï´Ù.";
+//		cout << "yê°€ xë³´ë‹¤ í½ë‹ˆë‹¤.";
 //	else
-//		cout << "°°Àº ¼ö ÀÔ´Ï´Ù.";
+//		cout << "ê°™ì€ ìˆ˜ ìž…ë‹ˆë‹¤.";
 //	
 //	return 0;
 //}
@@ -33,15 +35,15 @@ using namespace std;
 //int main() {
 //
 //	int age;
-//	cout << "³ªÀÌ¸¦ ÀÔ·ÂÇÏ½Ã¿À: ";
+//	cout << "ë‚˜ì´ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ";
 //	cin >> age;
 //
 //	if (age >= 20)
-//		cout << "¼ºÀÎÀÔ´Ï´Ù.";
+//		cout << "ì„±ì¸ìž…ë‹ˆë‹¤.";
 //	else if (age < 12)
-//		cout << "¾î¸°ÀÌÀÔ´Ï´Ù.";
+//		cout << "ì–´ë¦°ì´ìž…ë‹ˆë‹¤.";
 //	else
-//		cout << "Ã»¼Ò³âÀÔ´Ï´Ù.";
+//		cout << "ì²­ì†Œë…„ìž…ë‹ˆë‹¤.";
 //
 //	return 0;
 //}
@@ -51,15 +53,15 @@ using namespace std;
 //	char secret = 'g';
 //	char user;
 //
-//	    cout << "ºñ¹ÐÄÚµå¸¦ ¸ÂÃçº¸¼¼¿ä: ";
+//	    cout << "ë¹„ë°€ì½”ë“œë¥¼ ë§žì¶°ë³´ì„¸ìš”: ";
 //		cin >> user;
 //
 //		if (user > secret)
-//			cout << user << "¾Õ¿¡ ÀÖÀ½" << endl;
+//			cout << user << "ì•žì— ìžˆìŒ" << endl;
 //		else if (user < secret)
-//			cout << user << "µÚ¿¡ ÀÖÀ½" << endl;
+//			cout << user << "ë’¤ì— ìžˆìŒ" << endl;
 //		else
-//			cout << "Á¤´äÀÔ´Ï´Ù.";
+//			cout << "ì •ë‹µìž…ë‹ˆë‹¤.";
 //	
 //}
 
@@ -70,13 +72,13 @@ using namespace std;
 //	for (i = 10; i >= 0; i--)
 //		cout << i << " " ;
 //
-//	cout << "¹ß»ç !";
+//	cout << "ë°œì‚¬ !";
 //}
 
 //int main() {
 //
 //	int num;
-//	cout << "±¸±¸´Ü Áß¿¡¼­ Ãâ·ÂÇÏ°í ½ÍÀº ´ÜÀ» ÀÔ·ÂÇÏ½Ã¿À: ";
+//	cout << "êµ¬êµ¬ë‹¨ ì¤‘ì—ì„œ ì¶œë ¥í•˜ê³  ì‹¶ì€ ë‹¨ì„ ìž…ë ¥í•˜ì‹œì˜¤: ";
 //	cin >> num;
 //	int i;
 //	
@@ -94,14 +96,14 @@ using namespace std;
 //	int sum = 0;
 //	for (i = 1; i <= 10; i++)
 //		sum += i;
-//	cout << "1ºÎÅÍ 10±îÁöÀÇ Á¤¼öÀÇ ÇÕ = " << sum;
+//	cout << "1ë¶€í„° 10ê¹Œì§€ì˜ ì •ìˆ˜ì˜ í•© = " << sum;
 //
 //	return 0;
 //}
 
 //int main() {
 //	int num;
-//	cout << "Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ";
+//	cout << "ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ";
 //	cin >> num;
 //	int  i;
 //	int s = 1;
@@ -110,7 +112,7 @@ using namespace std;
 //		s *= i;
 //	}
 //
-//	cout << num << "!Àº " << s << "ÀÔ´Ï´Ù.";
+//	cout << num << "!ì€ " << s << "ìž…ë‹ˆë‹¤.";
 //
 //	return 0;
 //}
@@ -119,7 +121,7 @@ using namespace std;
 //	char word;
 //	int apple = 0;
 //	int mango = 0;
-//	cout << "¿µ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ°í ÄÜÆ®·Ñ-Z¸¦ Ä¡¼¼¿ä"<<endl;
+//	cout << "ì˜ë¬¸ìžë¥¼ ìž…ë ¥í•˜ê³  ì½˜íŠ¸ë¡¤-Zë¥¼ ì¹˜ì„¸ìš”"<<endl;
 //
 //	while (1)
 //	{
@@ -131,8 +133,8 @@ using namespace std;
 //			mango++;
 //	}
 //
-//	cout << "¸ðÀ½: " << apple<<endl;
-//	cout << "ÀÚÀ½: " << mango;
+//	cout << "ëª¨ìŒ: " << apple<<endl;
+//	cout << "ìžìŒ: " << mango;
 //
 //	return 0;
 //}
@@ -142,7 +144,7 @@ using namespace std;
 //	int apple = 0, mango = 0;
 //	char word;
 //
-//	cout << "¿µ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ°í ÄÜÆ®·Ñ - Z¸¦ Ä¡¼¼¿ä : " << endl;
+//	cout << "ì˜ë¬¸ìžë¥¼ ìž…ë ¥í•˜ê³  ì½˜íŠ¸ë¡¤ - Zë¥¼ ì¹˜ì„¸ìš” : " << endl;
 //	while (cin >> word) {
 //		switch (word)
 //		{
@@ -159,8 +161,8 @@ using namespace std;
 //		}
 //	}
 //
-//	cout << "¸ðÀ½: " << apple << endl;
-//	cout << "ÀÚÀ½: " << mango << endl;
+//	cout << "ëª¨ìŒ: " << apple << endl;
+//	cout << "ìžìŒ: " << mango << endl;
 //
 //	return 0;
 //}
@@ -172,16 +174,16 @@ using namespace std;
 //
 //	for (i = 1;; i++)
 //	{
-//		cout << "Á¤´äÀ» ÃßÃøÇÏ¿© º¸½Ã¿À: ";
+//		cout << "ì •ë‹µì„ ì¶”ì¸¡í•˜ì—¬ ë³´ì‹œì˜¤: ";
 //		cin >> user;
 //
 //		if (user > answer)
-//			cout << "Á¦½ÃÇÑ Á¤¼ö°¡ ³ô½À´Ï´Ù."<<endl;
+//			cout << "ì œì‹œí•œ ì •ìˆ˜ê°€ ë†’ìŠµë‹ˆë‹¤."<<endl;
 //		else if (user < answer)
-//			cout << "Á¦½ÃÇÑ Á¤¼ö°¡ ³·½À´Ï´Ù."<<endl;
+//			cout << "ì œì‹œí•œ ì •ìˆ˜ê°€ ë‚®ìŠµë‹ˆë‹¤."<<endl;
 //		else
 //		{
-//			cout << "ÃàÇÏÇÕ´Ï´Ù. ½Ãµµ È½¼ö = " << i << endl;
+//			cout << "ì¶•í•˜í•©ë‹ˆë‹¤. ì‹œë„ íšŸìˆ˜ = " << i << endl;
 //			break;
 //		}
 //	}
@@ -198,7 +200,7 @@ using namespace std;
 //	int result;
 //	int user;
 //
-//	cout << "»ê¼ö ¹®Á¦¸¦ ÀÚµ¿À¸·Î ÃâÁ¦ÇÕ´Ï´Ù." << endl;
+//	cout << "ì‚°ìˆ˜ ë¬¸ì œë¥¼ ìžë™ìœ¼ë¡œ ì¶œì œí•©ë‹ˆë‹¤." << endl;
 //	cout << num;
 //	if (num3 == 1)
 //	{
@@ -224,9 +226,9 @@ using namespace std;
 //	cin >> user;
 //
 //	if (user == result)
-//		cout << "¸Â¾Ò½À´Ï´Ù.";
+//		cout << "ë§žì•˜ìŠµë‹ˆë‹¤.";
 //	else
-//		cout << "Æ²·È½À´Ï´Ù.";
+//		cout << "í‹€ë ¸ìŠµë‹ˆë‹¤.";
 //
 //	return 0;
 //}
@@ -252,7 +254,7 @@ using namespace std;
 //	{
 //		cout << k << " ";
 //	}
-//	cout << endl<<"ÃÖ´ë°ª= " << large << endl;
+//	cout << endl<<"ìµœëŒ€ê°’= " << large << endl;
 //	return 0;
 //}
 
